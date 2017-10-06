@@ -143,24 +143,3 @@ folder="/data3/rstudio/rain_use_index/outputs"
 system(command=paste("chmod -R 2775",folder))
 
 ##end
-
-
-
-
-
-
-
-
-
-
-################################
-####compare test
-#require(raster)
-#eg1="/data3/rstudio/rain_use_index/outputs/clipped/RUE_index_2000_1km_gCm-2_laea_clipped.tif"
-#plot(raster(eg1))
-#system(command=paste("gdalinfo -stats",eg1))
-
-#eg2="/data3/rstudio/rain_use_index/outputs/RUE_index_2000_1km_gCm-2_laea.tif"
-#system(command=paste("gdalinfo -stats",eg2))
-
-
